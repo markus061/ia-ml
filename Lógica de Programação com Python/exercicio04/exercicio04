@@ -1,0 +1,54 @@
+# contador = 1
+
+# while contador <= 5:
+#     print(contador)
+#     contador += 1
+#     if contador == 3:
+#         break
+
+
+
+
+#     contador = 1
+
+# while contador <= 5:
+#     print(contador)
+#     contador += 1
+
+
+# contador = 0
+
+# while contador < 5:
+#     contador += 1
+#     print(contador)
+
+
+# contador = 11
+
+# while contador >= 2:
+#     contador -= 1
+#     print(contador)
+
+
+# numero = 2
+
+# while numero <= 100:
+#     print(numero)
+#     numero += 2
+
+
+# n = int(input("Digite um número: "))
+
+# while n <= 5:
+#     if n % 2 == 0:
+#         print(n)
+#     n += 1
+
+padrao = "adm123"
+senha = input("Informe a senha: ")
+
+while padrao != senha:
+    print("Senha incorreta")
+    senha = input("Informe a senha: ")
+
+print("Encerrado...")
